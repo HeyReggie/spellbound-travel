@@ -1,8 +1,14 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import CallToAction from "../components/CallToAction";
+
 function Homepage() {
   return (
-    <h1 className="text-center my-24 font-black tracking-tight text-6xl">
-      Our Homepage
-    </h1>
+    <div className="w-full h-full">
+      <Navbar />
+      <Hero />
+      <CallToAction />
+    </div>
   );
 }
 
