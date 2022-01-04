@@ -7,10 +7,14 @@ module.exports = {
       backgroundImage: {
         "hero-image": "url('../../public/images/bg-desktop.jpg')",
       },
+      fontFamily: {
+        primary: ["Playfair Display", "serif"],
+        secondary: ["Lato", "sans-serif"],
+      },
     },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
 };

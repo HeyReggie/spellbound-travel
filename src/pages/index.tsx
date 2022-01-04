@@ -4,7 +4,7 @@ import CallToAction from "../components/CallToAction";
 
 function Homepage() {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full font-primary">
       <Navbar />
       <Hero />
       <CallToAction />
