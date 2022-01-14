@@ -28,6 +28,8 @@ export default function Navbar() {
           <Image
             src={cropLogo}
             alt="Spellbound logo white text on black background"
+            height={65}
+            width={338}
           />
           <li className="hidden lg:block">City Guides</li>
           <li className="hidden lg:block">Blog</li>
